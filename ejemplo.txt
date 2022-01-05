@@ -1,0 +1,16 @@
+ls - Muestra las carpetas y archivos en la terminal
+pwd - Te indica en donde estás ubicado actualmente
+cd NombreDeLaCarpeta - Navegar internamente a una carpeta
+cd .. - Salir fuera de la carpeta actual
+mkdir NombreDeLaCarpeta - Crear una carpeta nueva
+touch NombreArchivo.extensión - Crear un archivo nuevo
+rm NombreArchivo.extensión - Eliminar un archivo o carpeta 
+
+COMANDOS DE GIT
+
+1) git init - Inicializa una carpeta como un repositorio localmente. /Archivos que están ocultos
+2) git add NombreArchivo - agregar un archivo a través de la interfaz
+3) git commit -m "Mensaje para el commit, agregando archivo de ejemplo.txt" - añadir mensaje al comit
+4) git remote add origin url-del-github - va a enlazar el repositorio local con el repositorio que tenemos en github, primero la URL la vamos a tener que crear
+5) git push -u origin master 5) git push -u origin main - en este paso nos pedirá únicamente nuestro TOKEN por primera vez, usuario de github y el token que dirá como password
+git status
